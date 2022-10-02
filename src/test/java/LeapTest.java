@@ -26,13 +26,14 @@ class LeapTest {
     }
 
     @Test
-    void year_2200_is_not_a_leap_year(){
+    public void year_2200_is_not_a_leap_year(){
         assertFalse(leap.isLeapYear(2200));
     }
     @Test
-    void year_2400_is_a_leap_year(){
+    public void year_2400_is_a_leap_year(){
         assertTrue(leap.isLeapYear(2400));
     }
+
 
 
 
