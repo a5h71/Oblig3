@@ -39,6 +39,10 @@ class LeapTest {
     public void year_2048_is_a_leap_year(){
         assertTrue(leap.isLeapYear(2048));
     }
+    @Test
+    public void year_2088_is_a_leap_year(){
+        assertTrue(leap.isLeapYear(2088));
+    }
 
 
 
