@@ -12,7 +12,7 @@
 
 <img src="src/main/resources/actions.png">
 
->__Step 3__: Change the JDK to projects JDK
+>__Step 3__: Change the JDK in the mave.yml file
 <img src="src/main/resources/jdk.png">
 
 >__Step 4__: Add new commits and push to the repository. Everytime a new commit comes it is run. If it passes all the tests it will be green.
