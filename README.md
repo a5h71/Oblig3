@@ -15,5 +15,14 @@
 >__Step 3__: Change the JDK in the mave.yml file
 <img src="src/main/resources/jdk.png">
 
->__Step 4__: Add new commits and push to the repository. Everytime a new commit comes it is run. If it passes all the tests it will be green.
+>__Step 4__: Under the Actions tab, the logs of the build will show. 
 <img src="src/main/resources/actionsTab.png">
+
+>Although everything was building without issues, I noticed the tests weren't running once I clicked the build.
+<img src="src/main/resources/NoTest.png">
+
+>__Step 5__: To automate testing, added the following to the pom.xml file
+<img src="src/main/resources/dependency.png">
+
+> All the tests are running now after a new commit
+<img src="src/main/resources/TestResults.png">
